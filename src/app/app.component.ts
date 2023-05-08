@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// @ts-ignore
+import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Econest';
+  name = 'Angular';
+  completed = false;
+  today = new Date();
+  isCollapsed = true;
+  ngAfterViewInit() {
+    AOS.init();
+  }
 }

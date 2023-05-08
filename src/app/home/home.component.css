@@ -1,0 +1,69 @@
+#homeScreen {
+  width: 100%;
+  height: 80vh;
+  background-image: url('https://source.unsplash.com/user/c_v_r/1900x800');
+  background-size: cover;
+}
+#homeScreen p {
+  color: rgb(233, 232, 232);
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+h1 {
+  color: rgb(184, 227, 235);
+  text-align: center;
+}
+
+#homeScreen p span {
+  color: rgb(206, 188, 188);
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+/*references*/
+.card {
+  text-align: center;
+  height: 50vh;
+  border-color: white;
+  /*  background-image: linear-gradient(180deg, #c8ccbc 0%, #7c9e84 100%);*/
+}
+.card img {
+  width: 65%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.card-img-top {
+  max-width: 30vh;
+  max-height: 30vh;
+}
+.card .card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+/* sidenav*/
+.example-container {
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.example-sidenav {
+  user-select: none;
+}
+.full-width {
+  width: 100%;
+}
+
+.submenu {
+  overflow-y: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+}
+.submenu.expanded {
+  transform: scaleY(1);
+}

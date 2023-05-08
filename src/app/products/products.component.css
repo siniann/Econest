@@ -1,0 +1,16 @@
+.card,
+.card-title,
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img {
+  height: 20vh;
+  max-width: 60vw;
+}
+.card-body {
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
