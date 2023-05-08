@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build ",
-    "watch": "ng build --watch --configuration development",
+    "deploy": "ng deploy econest --base-href /Econest/",
+    "watch": "ng build --watch --configuration development https: //siniann.github.io/Econest/",
     "test": "ng test"
   },
   "private": true,
@@ -27,6 +28,7 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
+    "angular-cli-ghpages": "^1.0.6",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
